@@ -12,6 +12,10 @@ The app is split into the following 3 components
 * client/Business - provides the business login and inventory UI
 * client/Client - provides the client site to check out items
 
+To connect to the mongo database, `export process.env.CUSTOMCONNSTR_MONGOLAB_URI_TEST=<path to mongodb>` to connect to a [mongolab](https://mongolab.com/home) database
+
+else a database `fearlessgerbil` will be created on localhost
+
 The following should be done to install all dependencies:
 
 #### Server
@@ -25,6 +29,8 @@ In the server folder execute:
 In the Client/Business folder execute:
 
 `bower install` 
+
+The clientUI is located in the [clientUI repository](https://github.com/fearlessgerbil/clientUI) with install instructions
 
 ### Guidelines
 
