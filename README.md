@@ -43,6 +43,6 @@ The clientUI is located in the [clientUI repository](https://github.com/fearless
 - In the server folder, run `npm test` could test server api and database.
   Add you own test in the test folder if you want to make some changes to routes or database.
 
-- Reference API_ROUTES.md and DATABASE_SCHEMA.md documentations when you
+- Reference [API_ROUTES](API_ROUTES.md) and [DATABASE_SCHEMA](DATABASE_SCHEMA.md) documentations when you
   want to make some updates on the front-end side.      
 
