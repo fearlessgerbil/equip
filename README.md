@@ -6,10 +6,25 @@ inventory needs.
 
 ### Setup
 
-Do the following before beginning:
+The app is split into the following 3 components
 
-- Do `npm install` in the server folder
-- Do `bower install` in the client folder 
+* server - provides the express server to manage the mongo database through the api's and server assets
+* client/Business - provides the business login and inventory UI
+* client/Client - provides the client site to check out items
+
+The following should be done to install all dependencies:
+
+#### Server
+
+In the server folder execute:
+
+`npm install` 
+
+#### Client 
+
+In the Client/Business folder execute:
+
+`bower install` 
 
 ### Guidelines
 
